@@ -1,0 +1,19 @@
+.footer{
+
+    background-color: $pure-black;
+    display: flex;
+justify-content:space-around;
+align-items: center;
+color: $light-white;
+padding-bottom: 2rem;
+padding-top: 2rem;
+    &__text{
+        width: 40%;
+        cursor: text;
+      
+        &__h1{
+            width: 100%;
+        }
+    }
+    
+}

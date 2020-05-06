@@ -1,0 +1,29 @@
+.sectionSeven{
+width: 100%;
+margin-top: 8rem;
+    &__inner{
+       // border: 1px solid red;
+        display: flex;
+       width: 100%;
+
+        &__HeaderAndCard{
+               margin-left: 5rem;
+
+                width: 40%;
+            &__h{
+                padding-bottom: 5rem;
+               width: 100%;
+               font-size: 30px;
+            }
+        }
+        &__image{
+            width: 50%;
+            margin-left: 3rem;
+            &__img{
+                width:100%;
+            }
+
+
+        }
+    }
+}

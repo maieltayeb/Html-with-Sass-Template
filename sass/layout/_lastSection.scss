@@ -1,0 +1,78 @@
+.lastSection{
+   // border:1px solid red;
+    width: 100%;
+    background-image: url('../images/background-about.jpg');
+    
+&__inner{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+ display: flex;
+&__left{
+width: 30%;
+//border: 1px solid royalblue;
+margin-left: 2.8rem;
+   /* &__image{
+       // &__img{}
+    }*/
+    &__text{
+        margin-top: 50px;
+        line-height: 1.4;
+        font-size: 20px;
+        color: #fff;
+       // &__p{}
+    }
+    &__media{
+
+        display: flex;
+        margin-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+}
+
+&__middle{
+    width: 33%;
+//border: 1px solid rgb(233, 97, 12);
+&__head{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    opacity: 0;
+    width: 100%;
+    &__h1{
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+}
+&__right{
+    width: 33%;
+//border: 1px solid springgreen;
+
+&__text{
+    // border:1px solid red;
+     height: 50px;
+     color:rgb(224, 220, 220) ;
+     margin-top: 5rem;
+     font-size: 30px;
+    &__p{
+      color: #fff;
+     
+        &__span{
+            color:$light-green;
+        }
+    }
+}
+&__CDateAndDayesContainer{
+    margin-top: 15rem;
+
+
+}
+}
+
+
+}
+
+
+
+}

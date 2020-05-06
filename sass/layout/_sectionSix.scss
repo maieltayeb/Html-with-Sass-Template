@@ -1,0 +1,26 @@
+.sectionSix{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/background-about.jpg');
+    &__inner{
+
+
+        &__NumContainer{
+        display: flex;
+        padding-bottom: 5rem;
+    
+    }
+        &__Text{
+margin-bottom: 15rem;
+
+
+            &__h{
+                padding-left: 30rem;
+                padding-top: 15rem;
+              font-size: 30px;
+              color: #fff;
+
+            }
+        }
+    }
+}

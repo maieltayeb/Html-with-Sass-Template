@@ -1,0 +1,33 @@
+.HeadAndText{
+    width: 90%;
+        text-align: center;
+        margin-top: 2rem;
+                        color:#000;
+                        margin-bottom: 3rem;
+        margin-left: .5rem;
+    &__h3{
+        padding-bottom: .8rem;
+        font-size: 24px;
+        display: inline-block;
+        color: $pure-black;
+        font-weight: 700px;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+
+    }
+    &__text{
+        width: 90%;
+        margin-left: 2rem;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+        line-height: 2;
+        color: #686868;
+        &__span{
+            color: $pure-black; 
+            font-size: 16px ;
+            display: inline-block;
+            padding-bottom: 3rem;
+        }
+    }
+}

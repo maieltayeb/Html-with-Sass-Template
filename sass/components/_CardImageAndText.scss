@@ -1,0 +1,46 @@
+.CardImageAndText{
+    display: flex;
+    width: 60%;
+    border-bottom: 1px solid rgba(167,167,167,.2);
+    position: relative;
+    font-size: 14px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    &__image{
+        width:30%;
+        margin-right:1rem;
+        
+        &__link{
+            cursor: pointer;
+            text-decoration: none;
+        transition: all .2s ease-in-out;
+            &__img{
+           width: 100%;
+            }
+        }
+
+    }
+    &__Text{
+       
+        &__h3{
+            line-height: 1.4;
+            font-weight: 700;
+            font-size: 18px;
+           
+            &__link{
+            text-decoration:none;
+            transition: all .2s ease-in-out;
+            color:$light-white;
+            }
+        }
+        &__icon{
+            color: $Dark-gray;
+            font-size: 14px;
+            opacity: .6;
+            &__i{
+                font-size: 11px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

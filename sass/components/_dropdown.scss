@@ -1,0 +1,24 @@
+.dropdown{
+    border: 1px solid $light-black ;
+    &__menu{
+        list-style: none;
+        padding: 1rem ;
+        &__item{
+
+            color:$light-gray;
+            padding: .3rem 0;
+            border-bottom: 1px solid $light-gray;
+             cursor: pointer;
+          
+        &:last-child{
+            border-bottom: none;
+        }
+        &:hover{
+            color:$light-green ;
+        }
+            &__link{
+
+            }
+        }
+    }
+}

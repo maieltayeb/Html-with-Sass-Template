@@ -1,0 +1,32 @@
+.sectionThree{
+    /*border:5px dotted darkviolet;*/
+   /* background-color: firebrick;*/
+    width: 100%;
+    height: auto;
+   &__textCardContainer{
+       background-color: #fff;
+       width: 100%;
+       height: auto;
+   text-align: center;
+   margin-top: 1rem;
+   
+       &__text{
+          /* margin-left: 2rem;*/
+           &__h3{
+               &__span{
+                   display: inline-block;
+                   padding-top: 9rem;
+       
+       padding-bottom: 9rem;
+                  color:#000;
+                  font-size: 3.8rem;
+                  font-weight: 40rem;
+               }
+           }
+       }
+   
+   
+   }
+   
+
+}

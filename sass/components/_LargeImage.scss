@@ -1,0 +1,58 @@
+.LargeImage{
+    position: relative;
+    max-width: 500px;
+   // margin: 0 auto;
+    font-family: Arial;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 1rem;
+    
+    &:hover{        
+        transform:skewX(5deg);
+  }
+    &__link{
+        cursor: pointer;
+        &__img{
+            vertical-align: middle;
+              } 
+        &__content{
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0); /* Fallback color */
+            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+            color: #f1f1f1;
+            width: 90%;
+            height:90% ;
+           margin-left: 2rem;
+           margin-bottom: 2rem;
+            text-align: center;
+            &__div{
+                margin-left: 10rem;
+                margin-top: 3rem;
+                width: 60%;
+                border-bottom: 1px solid #fff;
+                margin-bottom: 30px;
+            }
+            &__i{
+                padding-top: 100px;
+                  font-size: 50px;
+                 color: #fff;   
+                text-align: center;
+               padding-bottom: 50px;
+               
+            }
+            &__head{
+              font-size: 900px;
+              color: red;
+            }
+            &__small{
+              
+
+                &__span{}
+            }
+        }
+    }
+    
+
+}

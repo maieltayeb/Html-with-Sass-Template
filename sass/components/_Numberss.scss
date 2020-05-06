@@ -1,0 +1,24 @@
+.Numbers{
+ // background-color: rgba(12,166,132,0.12);
+  padding: 60px 10px;
+  margin-right: 10px;
+    margin-left: 3rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0ca684;
+    
+    width:20%;
+    &__NumSpan{
+        font-size: 90px;
+        
+    }
+    &__plus{
+        font-size: 90px;
+
+    }
+    &__TextSpan{
+        display:block;
+        font-size: 20px;
+        
+    }
+}

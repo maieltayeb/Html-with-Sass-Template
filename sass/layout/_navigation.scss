@@ -1,0 +1,34 @@
+.nav{
+   // background-color: $light-gray;
+    &__menu{
+        list-style: none;
+        padding: .5rem 0;
+        &__item{
+             
+            display: inline-block;
+   
+           /* color:lighten($color: $light-gray, $amount: 20)*/
+           padding: .8rem;
+          // padding-left: 2rem;
+            cursor: pointer;
+           transition:color .04 s;
+           position: relative;
+           .dropdown{
+            display: none;
+            position: absolute;
+            margin-left: 2rem;
+        }
+            &:hover{
+                color: $light-green;
+                .dropdown{
+                    display: block;
+                }
+            }
+            &__link{
+      font-size: 19px;
+            }
+        }
+
+    }
+  
+}

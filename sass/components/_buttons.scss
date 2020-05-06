@@ -1,0 +1,54 @@
+.btn{
+    margin: 100px;
+
+    font-family:'Roboto';
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight:600px;
+   
+    /*padding-left: 4.2rem;
+    padding-right: 4.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;*/
+    background-color:transparent;
+      display: inline-block;
+    transition: background-color  .5s;
+  
+//bem block element modifier
+&--lg{
+    padding:1.5rem 4.2rem  ;
+     font-size: 2rem;
+     &:hover{
+        padding-left:7rem;
+        padding-right:7rem;
+        
+     }
+} 
+
+    &--primary{
+        background-color:$light-green;
+        //border: 1px solid  $light-green ;
+        color:$pure-white;
+        //color: $light-green;
+        &:hover{
+            background-color:$pure-white ;
+            color:$light-green ;
+            border:4px solid $light-green;
+            
+  
+        }
+    }
+    &--secondary{
+        background-color:$pure-white;
+        color:$light-green;
+       &:hover {
+         background-color:$light-green;
+        color:$pure-white;
+        border:2px solid $pure-white;
+ 
+
+        }
+    }
+
+}
